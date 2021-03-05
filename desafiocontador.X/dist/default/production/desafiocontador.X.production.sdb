@@ -3,6 +3,8 @@
 [d edition pro ]
 [d chip 16F887 ]
 [d frameptr 6 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
 "10 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\sprcadd.c
 [v ___fladd __fladd `(d  1 e 4 0 ]
 "4 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\Umul8_16.c
@@ -54,11 +56,11 @@
 "15 C:\Users\20185210\MPLABXProjects\desafiocontador\desafiocontador.X\main.c
 [v _main main `(v  1 e 1 0 ]
 {
-"19
-[v main@estado estado `uc  1 a 1 8 ]
 "17
-[v main@cont cont `c  1 a 1 7 ]
-"44
+[v main@cont cont `c  1 a 1 10 ]
+"19
+[v main@estado estado `uc  1 a 1 9 ]
+"45
 } 0
 "18 C:\Users\20185210\MPLABXProjects\desafiocontador\desafiocontador.X\desafiocontador.c
 [v _display7seg_init display7seg_init `(v  1 e 1 0 ]
@@ -78,4 +80,15 @@
 [v _botao_up botao_up `(i  1 e 2 0 ]
 {
 "37
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 6 ]
+[v ___awmod@counter counter `uc  1 a 1 5 ]
+"5
+[v ___awmod@divisor divisor `i  1 p 2 0 ]
+[v ___awmod@dividend dividend `i  1 p 2 2 ]
+"34
 } 0

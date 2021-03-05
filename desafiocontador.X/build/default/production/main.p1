@@ -319,8 +319,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;main.c: 33:             case 1 :
 [e :U 146 ]
 "34
-[; ;main.c: 34:                         ++cont;
-[e =+ _cont -> -> 1 `i `c ]
+[; ;main.c: 34:                        cont = ++cont % 10;
+[e = _cont -> % -> =+ _cont -> -> 1 `i `c `i -> 10 `i `c ]
 "35
 [; ;main.c: 35:                         estado = 2;
 [e = _estado -> -> 2 `i `uc ]
@@ -340,8 +340,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 "41
 [; ;main.c: 41:                         break;
 [e $U 142  ]
-"42
-[; ;main.c: 42:         }
+"43
+[; ;main.c: 43:         }
 }
 [e $U 142  ]
 [e :U 143 ]
@@ -350,13 +350,13 @@ Version 4.0 HI-TECH Software Intermediate Code
  , $ -> 2 `i 147
  142 ]
 [e :U 142 ]
-"43
-[; ;main.c: 43:     }
+"44
+[; ;main.c: 44:     }
 }
 [e :U 139 ]
 [e $U 140  ]
 [e :U 141 ]
-"44
-[; ;main.c: 44: }
+"45
+[; ;main.c: 45: }
 [e :UE 138 ]
 }

@@ -2559,7 +2559,7 @@ void main(void)
                         break;
 
             case 1 :
-                        ++cont;
+                       cont = ++cont % 10;
                         estado = 2;
                         break;
 
@@ -2567,6 +2567,7 @@ void main(void)
                         if (botao_up()== 0)
                             estado = 0;
                         break;
+
         }
     }
 }
